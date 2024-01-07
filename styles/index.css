@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+}
+
+/* common share styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: White;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* header section style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png'), url("/images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 245px;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* banner styles */
+.banner {
+    padding: 45px 30px 0px 245px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    width: 585px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.banner-content p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.profile-pic {
+    width: 584px;
+}
+
+/* main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    margin: 130px 0;
+}
+
+.about>h3 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.about>p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.about-info-description {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info_dexcription {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* what i do */
+#what-description {
+    padding: 30px 150px;
+}
+
+.what>h3 {
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+
+.what>p {
+    margin: 40px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skills-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* resume section */
+.resume>h3 {
+    margin-top: 130px;
+    margin-bottom: 110px;
+
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.resume-col-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+/* footer section */
+.footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    gap: 120px;
+}
+
+.footer-col {
+    width: 50%;
+}
+
+.footer-col h3 {
+    text-align: left;
+    margin-bottom: 30px
+}
+
+.footer-col p {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 30px
+}
+
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.contact input[type="text"],
+input[type="Email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background: White;
+    width: 100%;
+}
